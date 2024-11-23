@@ -1,0 +1,47 @@
+.table,
+td {
+    border: solid 2px black;
+    border-collapse: collapse;
+
+}
+
+tr:last-child {
+    background-color: yellow;
+}
+
+.td:hover {
+    background-color: orange;
+}
+
+.btn-send {
+    background-color: green;
+}
+
+.input:focus {
+    background-color: orange;
+}
+
+.btn-send:hover {
+    background-color: chartreuse;
+}
+
+.text::before {
+    content: "😎 ";
+}
+
+.text::after {
+    content: "😎 ";
+}
+
+.block {
+    width: 0;
+    font-size: 0;
+    height: 0;
+    background-color: orange;
+}
+
+.parag:hover+.block {
+    width: 300px;
+    font-size: 14px;
+    background-color: orange;
+}
